@@ -14,7 +14,8 @@ const Banner = () => {
         </div>
 
         <div className='px-3'>
-          <img src="../../src/assets/banner.png" alt="" srcset="" />
+          <img src="https://i.ibb.co/WySMWcZ/banner.png" alt="banner" border="0"/>
+          {/* <img src="../../src/assets/banner.png" alt="" srcset="" /> */}
         </div>
       </div>
     </Fragment>
