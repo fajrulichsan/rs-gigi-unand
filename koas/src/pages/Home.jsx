@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react';
+import Antrian from '../component/Antrian';
+import Banner from '../component/Banner';
 
 const Home = () => {
   return (
-    <div className='bg-red-200'>Home</div>
+    <Fragment>
+      <Banner/>
+      <Antrian/>
+    </Fragment>
   )
 }
 
